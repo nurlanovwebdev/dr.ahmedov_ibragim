@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#header {
+  background: url() no-repeat center/cover;
+  min-height: 100vh;
+}
+
+.scroll {
+  overflow: hidden;
+}
+
+#header {
+  background: url("../img/stpmat4.jpg") no-repeat center/cover;
+  min-height: 100vh;
+}
+#header .header {
+  padding-top: 25px;
+}
+#header .header--general {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#header .header--general img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#header .header--general__title h1 {
+  font-size: 15px;
+}
+#header .header--general__title h2 {
+  font-size: 20px;
+  padding: 13px 0;
+}
+#header .header--uslug h1 {
+  text-align: center;
+  font-size: 17px;
+  padding: 10px 0;
+}
+#header .header--uslug__vidy h3 {
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+  color: #7a7777;
+}
+#header .header--uslug__vidy h4 {
+  text-align: center;
+  margin: 16px 0;
+  font-size: 19px;
+  color: #150303;
+}
+#header .header--uslug__vidy button {
+  width: 150px;
+  height: 50px;
+  margin: 10px 95px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #130f0f;
+  background: rgba(0, 164, 0, 0.75);
+  transition: 0.3s;
+  margin-left: 44%;
+}
+#header .header--uslug__vidy button:hover {
+  transform: scale(1.1);
+}
+#header .header--uslug__vidy .fa-whatsapp {
+  padding: 0 10px;
+  font-size: 18px;
+}
+#header .header--uslug__vidy--btn button {
+  color: #110e0f;
+  border-radius: 5px;
+  background: rgba(220, 20, 60, 0.8);
+}
+#header .header--uslug__vidy .fa-location-dot {
+  margin-left: 15px;
+}
+#header .header--footer h1 {
+  color: #2ABBA7;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
